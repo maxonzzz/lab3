@@ -1,0 +1,391 @@
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Red Hat Display', sans-serif; */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1172px;
+    margin: 0 auto;
+    
+}
+
+.color-modifier {
+    color: #06C258;
+}
+
+.fsize-modifier {
+    font-size: 128px;
+}
+
+.text-align {
+    text-align: center;
+}
+
+/* ===============Header============ */
+
+header {
+    padding: 30px 0 0 0;
+}
+
+/* ===NAV=== */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #233506;
+    transition: color ease .3s;
+}
+
+.nav-item a:hover {
+    color: #06C258;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #233506;
+    font-size: 36px;
+    transition: color ease .3s;
+}
+
+.logo a:hover {
+    color: #06C258;
+}
+
+/*===HERO=== */
+
+.hero {
+    margin-top: 30px;
+
+    background-image: url("../images/header/apples.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.hero-text {
+    width: 692px;
+    margin: 0 auto;
+    padding: 280px 0;
+    
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.greeting {
+    font-size: 64px;
+}
+
+.service {
+    font-size: 48px;
+}
+
+/* =============== MAIN ========== */
+
+main {
+    margin-top: 120px;
+}
+
+.section-title {
+    font-weight: 700;
+    color: #233506;
+    font-size: 70px;
+    margin-bottom: 87px;
+}
+
+/* =====GOODS===== */
+
+.goods {
+    margin-bottom: 191px;
+}
+
+.goods-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+}
+
+.goods-grid-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.goods-grid-item img {
+    margin-bottom: 33px;
+    width: 270px;
+    height: 197px;
+    border-radius: 10px;
+}
+
+.item-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #233506;
+
+    width: 106px;
+    height: 40px;
+    border-radius: 10px;
+    
+    margin: 33px auto 0;
+    transition: background-color ease 0.3s;
+}
+
+.item-name {
+    width: 179px;
+}
+
+.item-btn:hover {
+    background-color: #06C258;
+}
+
+/* ===Service info=== */
+
+.service-info {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 195px;
+}
+
+.service-info-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    width: 488px;
+    line-height: 170%;
+
+    margin-bottom: 50px;
+}
+
+.buy-steps {
+    width: 491px;
+}
+
+.buy-steps-item {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    margin-bottom: 30px;
+}
+
+.buy-steps-item-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #233506;
+
+    margin-bottom: 10px;
+}
+
+.buy-steps-item-description {
+    font-size: 18xp;
+    color: #233506;
+    width: 370px;
+}
+
+.service-info-imgs-wrapper {
+    width: 536px;
+}
+
+.service-info-imgs-wrapper img {
+    width: 246px;
+    height: 328px;
+    row-gap: 100px;
+}
+
+.service-info-imgs-wrapper img:nth-child(odd) {
+    margin-right: 35px;
+}
+
+/* ===About Us=== */
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.about-us-info {
+    font-family: 'Poppins', sans-serif;
+    width: 485px;
+    line-height: 170%;
+    font-size: 18px;
+}
+
+.about-us img {
+    width: 600px;
+    height: 743px;
+}
+
+
+/* ===Customer Review=== */
+
+.customer-review {
+    margin-bottom: 90px;
+}
+
+.slider-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 826px;
+    height: 368px;
+    border-radius:50px;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+}
+
+
+.slider-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 3304px;
+    transition: 1.5s;
+}
+
+.slider-item {
+    width: 826px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-item-text {
+    width: 604px;
+    margin-top: 89px;
+    text-align: center;
+    line-height: 170%;
+    color: #233506;
+}
+
+.slider-item-person {
+    margin-top: 40px;
+    display: flex;
+    gap:  18px;
+    /* width: 261px;
+    height: 101px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.person-photo {
+    width: 100px;
+    height: 100px;
+
+}
+
+.person-name {
+    position: relative;
+}
+
+.person-name::after {
+    content: " Happy Customer";
+    position: absolute;
+    left: 2%;
+    bottom: -20px;
+    font-size: 12px;
+    display: inline-block;
+    width: 200px;
+
+}
+
+.slider-btn {
+    width: 61px;
+    height: 61px;
+    background-color: #233506;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all ease-in .3s;
+}
+
+.slider-btn:hover {
+    background-color: #06C258;
+}
+
+
+.slider-btn-prev {
+    position: absolute;
+    left: 0px;
+    top: 40%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-btn-next  {
+    position: absolute;
+    right: 0px;
+    top: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.footer-nav {
+    margin: 0 auto;
+    justify-content: unset;
+    gap: 100px;
+    width: 1053px;
+    margin-bottom: 56px;
+    position: relative;
+}
+
+
+.footer-nav .nav-list {
+    width: 800px;
+    justify-content: space-between;
+}
+
+
+.footer-nav::after {
+    display: inline-block;
+    content: " ";
+    width: 1170px;
+    height: 1px;
+    background-color: #233506;
+    position: absolute;
+    bottom: -28px;
+    left: -75px;
+}
+
+.right-reserved {
+    text-align: center;
+    font-size: 18px;
+    color: #233506;
+    margin-bottom: 10px;
+}
